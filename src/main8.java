@@ -5,8 +5,10 @@ import java.util.LinkedHashSet;
 
 public class main8 {
     public static void main (String[] args){
-        ArrayList<String> animals = new ArrayList<>(List.of("Cat", "Dog", "Cat"));
-
+        ArrayList<String> animals = new ArrayList<>();
+animals.add("Cat");
+animals.add("Dog");
+animals.add("Cat");
         Set<String> unique = new LinkedHashSet<>(animals);
         animals = new ArrayList<>(unique);
 

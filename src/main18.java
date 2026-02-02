@@ -1,10 +1,12 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class main18 {
     public static void main(String[] args) {
 
-        ArrayList<String> movies = new ArrayList<>(List.of("Up","Avatar","Titanic"));
+        ArrayList<String> movies = new ArrayList<>();
+        movies.add("Avatar");
+        movies.add("Up");
+        movies.add("Titanic");
 
         String first = "";
         String second = "";

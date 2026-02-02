@@ -4,7 +4,12 @@ import java.util.List;
 public class main15 {
     public static void main(String[] args) {
 
-        ArrayList<Integer> nums = new ArrayList<>(List.of(1,2,3,4,5));
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.add(1);
+        nums.add(2);
+        nums.add(3);
+        nums.add(4);
+        nums.add(5);
 
         ArrayList<Integer> even = new ArrayList<>();
         ArrayList<Integer> odd = new ArrayList<>();

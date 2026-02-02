@@ -1,10 +1,13 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class main16 {
     public static void main(String[] args) {
 
-        ArrayList<String> days = new ArrayList<>(List.of("Mon","Tue","Wed","Thu"));
+        ArrayList<String> days = new ArrayList<>();
+        days.add("Mon");
+        days.add("Thu");
+        days.add("Tue");
+        days.add("Wed");
 
         for (int i = 0; i < 2; i++) {
             String first = days.remove(0);

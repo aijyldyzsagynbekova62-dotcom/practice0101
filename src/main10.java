@@ -1,12 +1,13 @@
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 
 public class main10 {
     public static void main(String[] args) {
 
-        String[] numbers = {"One", "Two", "Three"};
+        Integer[] numbers = {1, 2, 3, 4, 5};
 
-        ArrayList<String> list = new ArrayList<>(Arrays.asList(numbers));
+        ArrayList<Integer> list = new ArrayList<>();
+        Collections.addAll(list, numbers);
 
         System.out.println(list);
     }

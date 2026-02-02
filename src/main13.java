@@ -1,10 +1,12 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class main13 {
     public static void main(String[] args) {
 
-        ArrayList<String> songs = new ArrayList<>(List.of("Hello", "Sky", "Wonderful"));
+        ArrayList<String> songs = new ArrayList<>();
+        songs.add("Hello");
+        songs.add("Sky");
+        songs.add("Wonderful");
 
         String smallest = songs.get(0);
 

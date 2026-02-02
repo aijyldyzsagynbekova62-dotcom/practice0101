@@ -7,6 +7,7 @@ public class main17 {
         students.add("Anna");
         students.add(null);
         students.add("Bob");
+        students.add("Alya");
 
         students.removeIf(s -> s == null);
 

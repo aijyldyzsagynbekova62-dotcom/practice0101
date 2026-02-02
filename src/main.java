@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class main {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         ArrayList<String> books1 = new ArrayList<>();
         books1.add("Harry Potter");

@@ -1,8 +1,12 @@
 import java.util.ArrayList;
-import java.util.List;
+
 public class main2 {
     public static void main(String[] args){
-ArrayList<String> movies = new ArrayList<>(List.of("Up", "Inception", "Interstellar"));
+ArrayList<String> movies = new ArrayList<>();
+
+movies.add("Up");
+movies.add("Inception");
+movies.add("Interstellar");
 
     String longest = movies.get(0);
 for (String m :movies)

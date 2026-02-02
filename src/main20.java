@@ -6,12 +6,12 @@ public class main20 {
         ArrayList<ArrayList<String>> departments = new ArrayList<>();
 
         ArrayList<String> it = new ArrayList<>();
-        it.add("Alice");
-        it.add("Bob");
+        it.add("Aidana");
+        it.add("Temirlan");
 
         ArrayList<String> hr = new ArrayList<>();
-        hr.add("John");
-        hr.add("Emma");
+        hr.add("Anara");
+        hr.add("Bolot");
 
         departments.add(it);
         departments.add(hr);
